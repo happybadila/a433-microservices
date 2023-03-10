@@ -9,7 +9,7 @@ services:
   item-app:
     image: happybadila/item-app:v1
     ports:
-      - "3000:80"
+      - "80:80"
     depends_on:
       - item-db
     restart: always
